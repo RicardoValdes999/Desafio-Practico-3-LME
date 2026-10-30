@@ -4,13 +4,12 @@ Proyecto web académico desarrollado como una tienda en línea (*e-commerce*) pa
 
 ---
 
-## 👥 Integrantes del Equipo
-* **[Tu Nombre / Nombre de los Integrantes]** - Desarrollo Front-End y Arquitectura web.
+## 👥 Integrantes
+* **Ricardo Valdes** - Desarrollo Front-End y Arquitectura web.
 
 ---
 
 ## 🚀 Enlaces del Proyecto
-* **Sitio Web en Producción (Netlify):** [Ver sitio en línea](https://tu-proyecto.netlify.app) *(Reemplaza con tu enlace real de Netlify)*
 * **Repositorio en GitHub:** [https://github.com/tu-usuario/tu-repositorio](https://github.com/tu-usuario/tu-repositorio)
 
 ---
