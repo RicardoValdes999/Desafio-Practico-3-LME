@@ -10,8 +10,8 @@ Proyecto web académico desarrollado como una tienda en línea (*e-commerce*) pa
 ---
 
 ## 🚀 Enlaces del Proyecto
+* **Sitio Web en Producción (Netlify):[https://desafiopractico3lme.netlify.app/](https://desafiopractico3lme.netlify.app/)
 * **Repositorio en GitHub:** [https://github.com/tu-usuario/tu-repositorio](https://github.com/tu-usuario/tu-repositorio)
-
 ---
 
 ## 🛠️ Tecnologías y Herramientas Utilizadas
