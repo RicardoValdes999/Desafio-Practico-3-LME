@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Delight Bakery - Inicio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome para Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Hoja de estilos personalizada separada -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="flex flex-col min-h-screen font-sans">
+
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav class="bg-[#7b3f00] text-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <!-- Logo y Marca -->
+                <div class="flex items-center space-x-3">
+                    <i class="fa-solid fa-cake-candles text-[#d2a679] text-2xl"></i>
+                    <span class="font-bold text-xl tracking-wide">Gourmet Delight Bakery</span>
+                </div>
+                <!-- Menú de Enlaces -->
+                <div class="hidden md:flex space-x-8 items-center font-medium">
+                    <a href="index.html" class="text-[#d2a679] hover:text-white transition">Home</a>
+                    <a href="about.html" class="hover:text-[#d2a679] transition">About Us</a>
+                    <a href="menu.html" class="hover:text-[#d2a679] transition">Menu</a>
+                    <a href="gallery.html" class="hover:text-[#d2a679] transition">Gallery</a>
+                    <a href="contact.html" class="hover:text-[#d2a679] transition">Contact</a>
+                    <!-- Carrito de Compras -->
+                    <button class="relative bg-[#d2a679] text-[#7b3f00] px-3 py-1.5 rounded-lg font-semibold hover:bg-white transition flex items-center gap-2">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>Cart</span>
+                        <span class="absolute -top-2 -right-2 bg-[#e63946] text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SECCIÓN HERO (BANNER PRINCIPAL) -->
+    <header class="relative bg-cover bg-center py-28 text-white text-center" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1600&q=80');">
+        <div class="max-w-3xl mx-auto px-4">
+            <h1 class="text-4xl md:text-5xl font-extrabold tracking-wide mb-4 drop-shadow-md">"Baking Happiness Every Day"</h1>
+            <p class="text-lg md:text-xl text-gray-200 mb-8 font-light">
+                At Gourmet Delight Bakery, we believe that every bite should bring joy. From our freshly baked bread to our decadent pastries and cakes, we use the finest ingredients and time-honored recipes.
+            </p>
+            <a href="#menu" class="bg-[#e63946] hover:bg-red-700 text-white font-bold py-3 px-8 rounded-lg shadow-lg transition duration-300 inline-block">
+                Order Now
+            </a>
+        </div>
+    </header>
+
+    <!-- SECCIÓN: OFERTAS ESPECIALES -->
+    <section class="max-w-7xl mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold text-center text-[#7b3f00] mb-10">Special Offers</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Oferta 1 -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition transform hover:-translate-y-1">
+                <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=80" alt="Chocolate Lover's Delight" class="w-48 h-48 mx-auto object-cover mt-4 rounded-full border-4 border-[#d2a679]">
+                <div class="p-5 text-center">
+                    <span class="inline-block bg-[#e63946] text-white text-xs font-semibold px-2.5 py-1 rounded-full mb-2">Special Offer</span>
+                    <h3 class="font-bold text-lg mb-2">Chocolate Lover's Delight</h3>
+                    <p class="text-gray-600 text-sm mb-4">Indulge in our rich and dense chocolate cake layered with creamy ganache.</p>
+                    <button class="bg-[#7b3f00] hover:bg-amber-900 text-white font-semibold py-2 px-4 rounded-lg w-full transition">Order Now</button>
+                </div>
+            </div>
+            <!-- Oferta 2 -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition transform hover:-translate-y-1">
+                <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80" alt="Fresh Berry Tart" class="w-48 h-48 mx-auto object-cover mt-4 rounded-full border-4 border-[#d2a679]">
+                <div class="p-5 text-center">
+                    <span class="inline-block bg-[#e63946] text-white text-xs font-semibold px-2.5 py-1 rounded-full mb-2">Special Offer</span>
+                    <h3 class="font-bold text-lg mb-2">Fresh Berry Tart</h3>
+                    <p class="text-gray-600 text-sm mb-4">Enjoy the taste of summer with our fresh berry tart made with buttery crust.</p>
+                    <button class="bg-[#7b3f00] hover:bg-amber-900 text-white font-semibold py-2 px-4 rounded-lg w-full transition">Order Now</button>
+                </div>
+            </div>
+            <!-- Oferta 3 -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition transform hover:-translate-y-1">
+                <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80" alt="Classic Croissants" class="w-48 h-48 mx-auto object-cover mt-4 rounded-full border-4 border-[#d2a679]">
+                <div class="p-5 text-center">
+                    <span class="inline-block bg-[#e63946] text-white text-xs font-semibold px-2.5 py-1 rounded-full mb-2">Special Offer</span>
+                    <h3 class="font-bold text-lg mb-2">Classic Croissants</h3>
+                    <p class="text-gray-600 text-sm mb-4">Start your morning right with our freshly baked flaky croissants.</p>
+                    <button class="bg-[#7b3f00] hover:bg-amber-900 text-white font-semibold py-2 px-4 rounded-lg w-full transition">Order Now</button>
+                </div>
+            </div>
+            <!-- Oferta 4 -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition transform hover:-translate-y-1">
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80" alt="Lemon Poppy Seed Muffins" class="w-48 h-48 mx-auto object-cover mt-4 rounded-full border-4 border-[#d2a679]">
+                <div class="p-5 text-center">
+                    <span class="inline-block bg-[#e63946] text-white text-xs font-semibold px-2.5 py-1 rounded-full mb-2">Special Offer</span>
+                    <h3 class="font-bold text-lg mb-2">Lemon Poppy Seed Muffins</h3>
+                    <p class="text-gray-600 text-sm mb-4">Brighten your day with zesty lemon poppyseed muffins.</p>
+                    <button class="bg-[#7b3f00] hover:bg-amber-900 text-white font-semibold py-2 px-4 rounded-lg w-full transition">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: PRODUCTOS DESTACADOS -->
+    <section class="max-w-7xl mx-auto px-4 py-16 bg-white rounded-2xl shadow-sm mb-16" id="menu">
+        <h2 class="text-3xl font-bold text-center text-[#7b3f00] mb-10">Featured Products</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Producto 1 -->
+            <div class="bg-[#fffaf5] rounded-xl overflow-hidden shadow transition hover:shadow-lg">
+                <div class="h-56 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80" alt="Chocolate Heaven Cake" class="w-full h-full object-cover transition duration-300 hover:scale-105">
+                </div>
+                <div class="p-5 text-center">
+                    <h3 class="font-bold text-lg mb-2">Chocolate Heaven Cake</h3>
+                    <p class="text-[#7b3f00] font-bold text-lg mb-4">$25.00</p>
+                    <button class="bg-[#7b3f00] hover:bg-amber-900 text-white font-semibold py-2 px-6 rounded-lg transition w-full">Add to Cart</button>
+                </div>
+            </div>
+            <!-- Producto 2 -->
+            <div class="bg-[#fffaf5] rounded-xl overflow-hidden shadow transition hover:shadow-lg">
+                <div class="h-56 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80" alt="Classic Croissant" class="w-full h-full object-cover transition duration-300 hover:scale-105">
+                </div>
+                <div class="p-5 text-center">
+                    <h3 class="font-bold text-lg mb-2">Classic Croissant</h3>
+                    <p class="text-[#7b3f00] font-bold text-lg mb-4">$3.50</p>
+                    <button class="bg-[#7b3f00] hover:bg-amber-900 text-white font-semibold py-2 px-6 rounded-lg transition w-full">Add to Cart</button>
+                </div>
+            </div>
+            <!-- Producto 3 -->
+            <div class="bg-[#fffaf5] rounded-xl overflow-hidden shadow transition hover:shadow-lg">
+                <div class="h-56 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=800&q=80" alt="Berry Bliss Tart" class="w-full h-full object-cover transition duration-300 hover:scale-105">
+                </div>
+                <div class="p-5 text-center">
+                    <h3 class="font-bold text-lg mb-2">Berry Bliss Tart</h3>
+                    <p class="text-[#7b3f00] font-bold text-lg mb-4">$4.50</p>
+                    <button class="bg-[#7b3f00] hover:bg-amber-900 text-white font-semibold py-2 px-6 rounded-lg transition w-full">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA (FOOTER) -->
+    <footer class="bg-[#2d1810] text-amber-100 py-12 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
+            <div>
+                <h4 class="font-bold text-white text-base mb-3">Contact Information</h4>
+                <p><i class="fa-solid fa-location-dot mr-2"></i> 123 Sweet Street, Dessertville, CA 12345</p>
+                <p class="mt-2"><i class="fa-solid fa-phone mr-2"></i> (123) 456-7890</p>
+                <p class="mt-2"><i class="fa-solid fa-envelope mr-2"></i> info@gourmetdelightbakery.com</p>
+            </div>
+            <div>
+                <h4 class="font-bold text-white text-base mb-3">Business Hours</h4>
+                <p>Monday - Friday: 8am - 6pm</p>
+                <p class="mt-1">Saturday: 9am - 5pm</p>
+                <p class="mt-1">Sunday: Closed</p>
+            </div>
+            <div>
+                <h4 class="font-bold text-white text-base mb-3">Social Media Links</h4>
+                <p><a href="#" class="hover:text-white transition"><i class="fa-brands fa-facebook mr-2"></i> Gourmet Delight Bakery Official</a></p>
+                <p class="mt-1"><a href="#" class="hover:text-white transition"><i class="fa-brands fa-instagram mr-2"></i> gourmet_delight_bakery</a></p>
+                <p class="mt-1"><a href="#" class="hover:text-white transition"><i class="fa-brands fa-twitter mr-2"></i> gourmet_bakery.fr</a></p>
+            </div>
+            <div>
+                <h4 class="font-bold text-white text-base mb-3">Newsletter Signup</h4>
+                <p class="mb-2">Subscribe to get special offers and updates.</p>
+                <div class="flex">
+                    <input type="email" placeholder="Your email" class="px-3 py-2 rounded-l-lg text-black text-xs w-full focus:outline-none">
+                    <button class="bg-[#e63946] text-white px-4 py-2 rounded-r-lg text-xs font-bold hover:bg-red-700 transition">Join</button>
+                </div>
+                <p class="mt-4 text-xs text-gray-400">© 2026 Gourmet Delight Bakery. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
